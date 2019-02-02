@@ -1,0 +1,17 @@
+C:\Users\LiuSheng\Desktop\Api.Core\bin\Debug\netstandard2.0\Api.Core.deps.json
+C:\Users\LiuSheng\Desktop\Api.Core\bin\Debug\netstandard2.0\Api.Core.dll
+C:\Users\LiuSheng\Desktop\Api.Core\bin\Debug\netstandard2.0\Api.Core.pdb
+C:\Users\LiuSheng\Desktop\Api.Core\obj\Debug\netstandard2.0\Api.Core.csprojAssemblyReference.cache
+C:\Users\LiuSheng\Desktop\Api.Core\obj\Debug\netstandard2.0\Api.Core.csproj.CoreCompileInputs.cache
+C:\Users\LiuSheng\Desktop\Api.Core\obj\Debug\netstandard2.0\Api.Core.AssemblyInfoInputs.cache
+C:\Users\LiuSheng\Desktop\Api.Core\obj\Debug\netstandard2.0\Api.Core.AssemblyInfo.cs
+C:\Users\LiuSheng\Desktop\Api.Core\obj\Debug\netstandard2.0\Api.Core.dll
+C:\Users\LiuSheng\Desktop\Api.Core\obj\Debug\netstandard2.0\Api.Core.pdb
+C:\Users\LiuSheng\Desktop\Api\Api.Core\bin\Debug\netstandard2.0\Api.Core.deps.json
+C:\Users\LiuSheng\Desktop\Api\Api.Core\bin\Debug\netstandard2.0\Api.Core.dll
+C:\Users\LiuSheng\Desktop\Api\Api.Core\bin\Debug\netstandard2.0\Api.Core.pdb
+C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.csproj.CoreCompileInputs.cache
+C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.AssemblyInfoInputs.cache
+C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.AssemblyInfo.cs
+C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.dll
+C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.pdb

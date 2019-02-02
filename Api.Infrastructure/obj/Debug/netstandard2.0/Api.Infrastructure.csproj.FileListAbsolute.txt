@@ -1,0 +1,12 @@
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\bin\Debug\netstandard2.0\Api.Core.dll
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.csprojAssemblyReference.cache
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.AssemblyInfo.cs
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\bin\Debug\netstandard2.0\Api.Infrastructure.deps.json
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\bin\Debug\netstandard2.0\Api.Infrastructure.dll
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\bin\Debug\netstandard2.0\Api.Infrastructure.pdb
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\bin\Debug\netstandard2.0\Api.Core.pdb
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.csproj.CopyComplete
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.dll
+C:\Users\LiuSheng\Desktop\Api\Api.Infrastructure\obj\Debug\netstandard2.0\Api.Infrastructure.pdb
