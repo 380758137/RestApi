@@ -1,0 +1,52 @@
+2019-02-03 10:08:06.032 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:08:06.532 +08:00 [INF] Saved 8 entities to in-memory store.
+2019-02-03 10:08:06.617 +08:00 [INF] User profile is available. Using 'C:\Users\LiuSheng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-03 10:08:08.446 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-02-03 10:08:08.542 +08:00 [INF] Request finished in 98.4928ms 404 text/plain
+2019-02-03 10:08:08.641 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2019-02-03 10:08:08.645 +08:00 [INF] Request finished in 4.5145ms 404 text/plain
+2019-02-03 10:08:38.240 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3 application/json 
+2019-02-03 10:08:38.298 +08:00 [INF] Route matched with {action = "Get", controller = "Country"}. Executing action Api.Controllers.CountryController.Get (Api)
+2019-02-03 10:08:38.698 +08:00 [INF] Executing action method Api.Controllers.CountryController.Get (Api) with arguments (["Api.Core.DomainModels.CountryResourceParamenters"]) - Validation state: "Valid"
+2019-02-03 10:08:38.715 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:08:38.964 +08:00 [INF] Executed action method Api.Controllers.CountryController.Get (Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 252.4088ms.
+2019-02-03 10:08:38.975 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Resources.CountryResource, Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-03 10:08:38.990 +08:00 [INF] Executed action Api.Controllers.CountryController.Get (Api) in 683.2639ms
+2019-02-03 10:08:38.995 +08:00 [INF] Request finished in 754.2659ms 200 application/json; charset=utf-8
+2019-02-03 10:21:00.164 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:21:00.542 +08:00 [INF] Saved 8 entities to in-memory store.
+2019-02-03 10:21:00.603 +08:00 [INF] User profile is available. Using 'C:\Users\LiuSheng\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-02-03 10:21:01.954 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-02-03 10:21:02.108 +08:00 [INF] Request finished in 153.4388ms 404 text/plain
+2019-02-03 10:21:22.435 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3 application/json 
+2019-02-03 10:21:22.501 +08:00 [INF] Route matched with {action = "Get", controller = "Country"}. Executing action Api.Controllers.CountryController.Get (Api)
+2019-02-03 10:21:22.891 +08:00 [INF] Executing action method Api.Controllers.CountryController.Get (Api) with arguments (["Api.Core.DomainModels.CountryResourceParamenters"]) - Validation state: "Valid"
+2019-02-03 10:21:22.908 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:21:23.111 +08:00 [INF] Executed action method Api.Controllers.CountryController.Get (Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 206.7396ms.
+2019-02-03 10:21:23.124 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Resources.CountryResource, Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-03 10:21:23.140 +08:00 [INF] Executed action Api.Controllers.CountryController.Get (Api) in 634.5804ms
+2019-02-03 10:21:23.146 +08:00 [INF] Request finished in 711.2805ms 200 application/json; charset=utf-8
+2019-02-03 10:21:47.417 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3&englishName=China application/json 
+2019-02-03 10:21:47.454 +08:00 [INF] Route matched with {action = "Get", controller = "Country"}. Executing action Api.Controllers.CountryController.Get (Api)
+2019-02-03 10:21:47.493 +08:00 [INF] Executing action method Api.Controllers.CountryController.Get (Api) with arguments (["Api.Core.DomainModels.CountryResourceParamenters"]) - Validation state: "Valid"
+2019-02-03 10:21:47.498 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:21:47.547 +08:00 [INF] Executed action method Api.Controllers.CountryController.Get (Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 49.720800000000004ms.
+2019-02-03 10:21:47.549 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Resources.CountryResource, Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-03 10:21:47.551 +08:00 [INF] Executed action Api.Controllers.CountryController.Get (Api) in 95.0954ms
+2019-02-03 10:21:47.553 +08:00 [INF] Request finished in 136.8302ms 200 application/json; charset=utf-8
+2019-02-03 10:21:53.557 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=1&englishName=China application/json 
+2019-02-03 10:21:53.560 +08:00 [INF] Route matched with {action = "Get", controller = "Country"}. Executing action Api.Controllers.CountryController.Get (Api)
+2019-02-03 10:21:53.598 +08:00 [INF] Executing action method Api.Controllers.CountryController.Get (Api) with arguments (["Api.Core.DomainModels.CountryResourceParamenters"]) - Validation state: "Valid"
+2019-02-03 10:21:53.604 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:21:53.611 +08:00 [INF] Executed action method Api.Controllers.CountryController.Get (Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7.5976000000000008ms.
+2019-02-03 10:21:53.616 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Resources.CountryResource, Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-03 10:21:53.619 +08:00 [INF] Executed action Api.Controllers.CountryController.Get (Api) in 54.285500000000006ms
+2019-02-03 10:21:53.622 +08:00 [INF] Request finished in 64.3672ms 200 application/json; charset=utf-8
+2019-02-03 10:21:56.431 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=1&pageSize=1&englishName=China application/json 
+2019-02-03 10:21:56.447 +08:00 [INF] Route matched with {action = "Get", controller = "Country"}. Executing action Api.Controllers.CountryController.Get (Api)
+2019-02-03 10:21:56.474 +08:00 [INF] Executing action method Api.Controllers.CountryController.Get (Api) with arguments (["Api.Core.DomainModels.CountryResourceParamenters"]) - Validation state: "Valid"
+2019-02-03 10:21:56.479 +08:00 [INF] Entity Framework Core 2.2.1-servicing-10028 initialized 'MyDbContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2019-02-03 10:21:56.493 +08:00 [INF] Executed action method Api.Controllers.CountryController.Get (Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 14.7026ms.
+2019-02-03 10:21:56.499 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Resources.CountryResource, Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-02-03 10:21:56.503 +08:00 [INF] Executed action Api.Controllers.CountryController.Get (Api) in 51.7723ms
+2019-02-03 10:21:56.507 +08:00 [INF] Request finished in 76.0501ms 200 application/json; charset=utf-8

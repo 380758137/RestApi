@@ -3545,6 +3545,18 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
+      "System.Linq.Dynamic.Core/1.0.9.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "System.Linq.Expressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4602,7 +4614,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Api.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1",
+          "System.Linq.Dynamic.Core": "1.0.9.2"
         },
         "compile": {
           "bin/placeholder/Api.Infrastructure.dll": {}
@@ -8277,6 +8290,18 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
+      "System.Linq.Dynamic.Core/1.0.9.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Linq.Dynamic.Core.dll": {}
+        }
+      },
       "System.Linq.Expressions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9245,7 +9270,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Api.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1"
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.1",
+          "System.Linq.Dynamic.Core": "1.0.9.2"
         },
         "compile": {
           "bin/placeholder/Api.Infrastructure.dll": {}
@@ -14379,6 +14405,39 @@
         "ref/xamarinwatchos10/_._",
         "system.linq.4.3.0.nupkg.sha512",
         "system.linq.nuspec"
+      ]
+    },
+    "System.Linq.Dynamic.Core/1.0.9.2": {
+      "sha512": "Liye9JWQNaU/0ZbbcT/PE1FJFCRLdiFMDQODBiYMApSAPY+KgBRtXcpZKkKahmXcAiYhyA1BYaTnjoVAvoGbZQ==",
+      "type": "package",
+      "path": "system.linq.dynamic.core/1.0.9.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/System.Linq.Dynamic.Core.dll",
+        "lib/net35/System.Linq.Dynamic.Core.pdb",
+        "lib/net35/System.Linq.Dynamic.Core.xml",
+        "lib/net40/System.Linq.Dynamic.Core.dll",
+        "lib/net40/System.Linq.Dynamic.Core.pdb",
+        "lib/net40/System.Linq.Dynamic.Core.xml",
+        "lib/net45/System.Linq.Dynamic.Core.dll",
+        "lib/net45/System.Linq.Dynamic.Core.pdb",
+        "lib/net45/System.Linq.Dynamic.Core.xml",
+        "lib/net46/System.Linq.Dynamic.Core.dll",
+        "lib/net46/System.Linq.Dynamic.Core.pdb",
+        "lib/net46/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.xml",
+        "lib/uap10.0/System.Linq.Dynamic.Core.dll",
+        "lib/uap10.0/System.Linq.Dynamic.Core.pdb",
+        "lib/uap10.0/System.Linq.Dynamic.Core.pri",
+        "lib/uap10.0/System.Linq.Dynamic.Core.xml",
+        "system.linq.dynamic.core.1.0.9.2.nupkg.sha512",
+        "system.linq.dynamic.core.nuspec"
       ]
     },
     "System.Linq.Expressions/4.3.0": {

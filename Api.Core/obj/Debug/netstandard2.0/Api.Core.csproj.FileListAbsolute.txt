@@ -15,3 +15,4 @@ C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.Assembl
 C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.AssemblyInfo.cs
 C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.dll
 C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.pdb
+C:\Users\LiuSheng\Desktop\Api\Api.Core\obj\Debug\netstandard2.0\Api.Core.csprojAssemblyReference.cache

@@ -15,8 +15,21 @@ namespace Api.Core.DomainModels
             set => _pageSize = value > MaxPageSize ? MaxPageSize : value;
         }
 
-        //public string OrderBy { get; set; } = nameof(IEntity.Id);
+        public string OrderBy { get; set; }
 
-        private int MaxPageSize { get; set; } = 100;
+        public int MaxPageSize { get; set; } = 100;
+
+        //public PageinationBase(int pageSize,int pageIndex,int maxPageSize)
+        //{
+        //    PageIndex = pageIndex;
+        //    PageSize = pageSize;
+        //    MaxPageSize = maxPageSize;
+        //}
+
+        //public PageinationBase Clone()
+        //{
+        //    PageinationBase pageinationBase = new PageinationBase();
+        //    return pageinationBase;
+        //}
     }
 }

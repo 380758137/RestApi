@@ -5,6 +5,7 @@ using Api.Resources;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +19,14 @@ namespace Api.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly ICountryRepository _countryRepository;
         private readonly IMapper _mapper;
-        public CountryController(ICountryRepository countryRepository, IMapper mapper, IUnitOfWork unitOfWork)
+        private readonly IUrlHelper _urlHelper;
+
+        public CountryController(ICountryRepository countryRepository, IMapper mapper, IUnitOfWork unitOfWork,IUrlHelper urlHelper)
         {
             _countryRepository = countryRepository;
             _mapper = mapper;
             _unitOfWork = unitOfWork;
+            _urlHelper = urlHelper;
         }
 
         [HttpGet]
@@ -30,6 +34,19 @@ namespace Api.Controllers
         {
             var countries = await _countryRepository.GetCountriesAsync(paramenters);
             var countryResources = _mapper.Map<List<CountryResource>>(countries);
+            var previousLink = countries.HasPrevious ? CreateCountryUri(paramenters, PaginationResourceUriType.PreviousPage) : null;
+            var nextLink = countries.HasNext ? CreateCountryUri(paramenters, PaginationResourceUriType.NextPage) : null;
+            var meta = new
+            {
+                countries.TotalItemsCount,
+                countries.PageinationBase.PageSize,
+                countries.PageinationBase.PageIndex,
+                countries.PageCount,
+                previousLink,
+                nextLink
+            };
+
+            Response.Headers.Add("X-Pagination", JsonConvert.SerializeObject(meta));    
             return Ok(countryResources);
         }
 
@@ -133,13 +150,21 @@ namespace Api.Controllers
             return NoContent();
         }
 
-        //private string CreateCountryUri(PageinationBase pageination,PaginationResourceUriType uriType)
-        //{
-        //    switch (uriType)
-        //    {
-        //        case PaginationResourceUriType.PreviousPage:
-        //            var previousParamenters=pageination.
-        //    }
-        //}
+        private string CreateCountryUri(CountryResourceParamenters pageination, PaginationResourceUriType uriType)
+        {
+            switch (uriType)
+            {
+                case PaginationResourceUriType.PreviousPage:
+                    var previousParamenters = pageination.Clone();
+                    previousParamenters.PageIndex--;
+                    return _urlHelper.Link("GetCountries", previousParamenters);
+                case PaginationResourceUriType.NextPage:
+                    var nextParamenters = pageination.Clone();
+                    nextParamenters.PageIndex++;
+                    return _urlHelper.Link("GetCountries", nextParamenters);
+                default:
+                    return _urlHelper.Link("GetCountries", pageination);
+            }
+        }
     }
 }
